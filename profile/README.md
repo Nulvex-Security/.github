@@ -15,7 +15,7 @@ This is where we publish our security research and detection rules.</p>
 
 | Repository | What it is |
 |---|---|
-| [nulvex-detections](https://github.com/Nulvex-Security/nulvex-detections) | Sigma, Suricata and Wazuh rules. Each one states its expected telemetry, its false positives, and whether it has actually been tested |
+| [nulvex-detections](https://github.com/Nulvex-Security/nulvex-detections) | Sigma, Suricata and Wazuh rules, each linked to the analysis behind it. Each one states its expected telemetry, its false positives, and whether it has actually been tested |
 
 More will follow as there is real content to put in it. We would rather have one useful
 repository than five empty ones.
@@ -28,11 +28,12 @@ what to do, and what we could not establish. Published at
 
 Latest analyses:
 
+- [Citrix NetScaler zero-days: patch, then investigate](https://nulvex.com/research/cve/cve-2026-88771-citrix-netscaler-zero-days/) (CVE-2026-88771, CVE-2026-88772)
+- [GitLab: an unauthenticated file read, so patch, then rotate secrets](https://nulvex.com/research/cve/cve-2026-85706-gitlab-unauthenticated-file-read/) (CVE-2026-85706)
+- [N-central: pre-auth takeover of the server that manages every client](https://nulvex.com/research/cve/cve-2026-86218-n-able-n-central-pre-auth-rce/) (CVE-2026-86218)
+- [ScreenConnect: a support session turned against the technician](https://nulvex.com/research/cve/cve-2026-84869-connectwise-screenconnect-host-file-execution/) (CVE-2026-84869)
 - [MikroTrick: the 6.5 that takes over MikroTik routers](https://nulvex.com/research/cve/cve-2026-67279-mikrotik-routeros-mikrotrick-ssh-takeover/) (CVE-2026-67279)
 - [WordPress core file inclusion: your theme and PHP settings decide the damage](https://nulvex.com/research/cve/cve-2026-87902-wordpress-page-template-file-inclusion/) (CVE-2026-87902)
-- [StyleSmuggler: patching Magento is the easy part](https://nulvex.com/research/cve/cve-2026-75650-magento-stylesmuggler-template-injection/) (CVE-2026-75650)
-- [PHP ext-pgsql: a 9.8 that only reaches four PostgreSQL helpers](https://nulvex.com/research/cve/cve-2026-17543-php-pgsql-backslash-sql-injection/) (CVE-2026-17543)
-- [wp2shell: a stock WordPress site taken over with one anonymous request](https://nulvex.com/research/cve/cve-2026-63030-wordpress-wp2shell-batch-route-confusion/) (CVE-2026-63030)
 
 Each rule in [nulvex-detections](https://github.com/Nulvex-Security/nulvex-detections#rule-index)
 links back to the analysis that explains it.
