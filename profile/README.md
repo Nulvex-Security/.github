@@ -26,6 +26,11 @@ Vulnerability analysis written for the people who have to act on it: who is real
 what to do, and what we could not establish. Published at
 **[nulvex.com/research](https://nulvex.com/research)**.
 
+**[The CVE Library](https://nulvex.com/research/library/)**: 2,350 serious and actively exploited
+vulnerabilities, searchable by product, with exploitation status and fixes. Updated weekly.
+**[Exploited this month](https://nulvex.com/research/threat-intelligence/exploited-this-month-2026-09/)**:
+the monthly roundup of what CISA confirmed as exploited.
+
 Latest analyses:
 
 - [Citrix NetScaler zero-days: patch, then investigate](https://nulvex.com/research/cve/cve-2026-88771-citrix-netscaler-zero-days/) (CVE-2026-88771, CVE-2026-88772)
